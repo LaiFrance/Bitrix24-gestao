@@ -5,6 +5,46 @@ Integração do Sistema Web com o Bitrix24
 
 Este projeto tem como objetivo criar uma integração entre a plataforma de gestão Bitrix24 e um Sistema Web, com o propósito de apresentar um resumo visual das horas trabalhadas por departamento e colaborador.
 
+## Clonando o Projeto
+
+Siga as instruções abaixo para clonar o projeto em seu ambiente local:
+
+1. Abra o terminal do seu sistema operacional.
+
+2. Navegue até o diretório em que deseja clonar o projeto.
+
+3. Execute o seguinte comando para clonar o repositório:
+
+   ```
+   git clone https://github.com/LaiFrance/Bitrix24-gestao.git
+   ```
+
+4. Aguarde até que o processo de clonagem seja concluído.
+
+## Instalando as Dependências
+
+Após clonar o projeto, siga as instruções abaixo para instalar as dependências necessárias:
+
+1. Certifique-se de ter o Node.js instalado em seu sistema. Você pode verificar a versão instalada executando o seguinte comando no terminal:
+
+   ```
+   node -v
+   ```
+
+   Se o Node.js não estiver instalado, faça o download e a instalação a partir do site oficial do Node.js.
+
+2. Navegue até o diretório raiz do projeto clonado.
+
+3. Execute o seguinte comando para instalar as dependências do projeto:
+
+   ```
+   npm install
+   ```
+
+4. Aguarde até que o processo de instalação das dependências seja concluído.
+
+Após concluir essas etapas, você estará pronto para executar e utilizar o projeto Bitrix24-gestao em seu ambiente local.
+
 ## ℹ️ Informações Gerais
 
 ### Plataforma Bitrix24
