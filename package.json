@@ -1,0 +1,15 @@
+{
+  "name": "gestao-bitrix",
+  "version": "1.0.0",
+  "description": "gestao-funcionarios-microblau-laise",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "laise farias france",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.0"
+  }
+}

@@ -1,0 +1,67 @@
+.step .header {
+  background-color: #001f3f;
+  padding: 24px 0px;
+  margin-bottom: 50px;
+}
+
+.step .title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.step .logo {
+  height: 29px;
+  width: 70px;
+}
+
+.step .main {
+  background-color: #f7f8fc;
+  gap: 64px;
+  justify-content: center;
+}
+
+.step .informations .subtitle {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.step .informations .text-wrapper {
+  color: #121212;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.step .filter .list-departments {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.step .filter .label {
+  color: #6c757d;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.step .filter .button-submit {
+  background-color: #0d6efd;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 8px 24px;
+}
+
+#tabelaBitrix24 tr {
+  background-color: #007bff;
+  color: white;
+}
+
+#outraTabela tr:nth-child(2) {
+  background-color: #007bff;
+  color: white;
+}
