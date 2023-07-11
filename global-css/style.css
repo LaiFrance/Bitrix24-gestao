@@ -58,7 +58,8 @@
 
 #tabelaBitrix24 tr {
   background-color: #007bff;
-  color: white;
+  color: white; 
+  
 }
 
 #outraTabela tr:nth-child(2) {
