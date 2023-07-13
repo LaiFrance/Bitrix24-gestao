@@ -141,6 +141,16 @@ function preencherOutraTabela(dados) {
   // Implementação da lógica para preencher a tabela "outraTabela" com os dados fornecidos
 }
 ```
+#### Exemplo de utilização
+Suponhamos que você deseje obter o departamento do usuário através da rota 
+
+[https://b24-4qk6uy.bitrix24.com.br/rest/4/dzcurri03cfeld8c/user.get.json?UF_DEPARTMENT=1](https://b24-4qk6uy.bitrix24.com.br/rest/4/dzcurri03cfeld8c/user.get.json?UF_DEPARTMENT=1)
+
+Essa rota específica retorna o departamento do usuário quando o parâmetro UF_DEPARTMENT é definido como 1.
+
+Você pode configurar um webhook para receber uma notificação sempre que o departamento do usuário for obtido. A notificação enviada para o seu endpoint conterá os dados do departamento em formato JSON.
+
+No seu sistema, você pode receber a notificação no endpoint configurado e realizar ações como armazenar o departamento em um banco de dados, enviar notificações internas ou iniciar um fluxo de trabalho automatizado com base nas informações recebidas.
 
 ## Considerações Finais
 
