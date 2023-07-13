@@ -1,3 +1,7 @@
+# Apresentação do Projeto 
+
+🔗 [CANVA APRESENTAÇÃO](https://www.canva.com/design/DAFoY5YqYQE/7upHEjMN8aYKDgIB_5eT2A/edit?utm_content=DAFoY5YqYQE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 # Bitrix24-gestao
 Integração do Sistema Web com o Bitrix24
 
