@@ -1,32 +1,50 @@
 .step .header {
-  background-color: #001f3f;
+  background: #001F3F;
+  display: flex;
   padding: 24px 0px;
-  margin-bottom: 50px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
 }
 
 .step .title {
-  color: #ffffff;
-  font-size: 24px;
-  font-weight: 700;
+  color: #FFF;
   text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  flex: 1 0 0;
+  align-self: stretch;
 }
 
 .step .logo {
-  height: 29px;
-  width: 70px;
+  width: 70.416px;
+  height: 29.328px;
+  position: absolute;
+  right: 48.584px;
+  top: 74px;
 }
 
 .step .main {
-  background-color: #f7f8fc;
-  gap: 64px;
+  display: flex;
+  padding: 0px 48px;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  gap: 48px;
+  align-self: stretch;
 }
 
 .step .informations .subtitle {
-  color: #000;
-  font-size: 16px;
-  font-weight: 600;
+  margin-top: 24px;
+  color: #121212;
   text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 24px */
 }
 
 .step .informations .text-wrapper {
@@ -36,11 +54,12 @@
   text-align: center;
 }
 
-.step .filter .list-departments {
-  background-color: #ffffff;
+.step .filter {
+  padding: 16px 0px;
   border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 16px;
+  background: #FFF;
+  /* Drop-shadow/Light */
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.04);
 }
 
 .step .filter .label {
@@ -54,15 +73,7 @@
   border-radius: 4px;
   color: #ffffff;
   padding: 8px 24px;
-}
-
-#tabelaBitrix24 tr {
-  background-color: #007bff;
-  color: white; 
-  
-}
-
-#outraTabela tr:nth-child(2) {
-  background-color: #007bff;
-  color: white;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
 }
