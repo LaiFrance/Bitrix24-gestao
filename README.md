@@ -53,6 +53,32 @@ Após concluir essas etapas, você estará pronto para executar e utilizar o pro
 
 A plataforma Bitrix24 é uma ferramenta de gestão de projetos e colaboração. Neste projeto, utilizaremos a API fornecida pelo Bitrix24 para ler as informações inseridas na plataforma. A documentação da API pode ser encontrada em 🔗 [Bitrix24 REST API](https://training.bitrix24.com/rest_help).
 
+Este é um projeto que utiliza as seguintes tecnologias:
+
+## ![HTML](https://img.icons8.com/color/48/000000/html-5--v1.png) HTML
+
+HTML (HyperText Markup Language) é a linguagem de marcação padrão para a criação de páginas da web. É utilizada para estruturar o conteúdo e os elementos de uma página web.
+
+## ![CSS](https://img.icons8.com/color/48/000000/css3.png) CSS
+
+CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para controlar a apresentação visual de documentos em HTML. Ele permite definir o layout, cores, fontes e outros aspectos visuais de uma página.
+
+## ![JavaScript](https://img.icons8.com/color/48/000000/javascript--v1.png) JavaScript
+
+JavaScript é uma linguagem de programação de alto nível e interpretada que adiciona interatividade e comportamento às páginas web. É amplamente utilizado para criar e manipular elementos dinâmicos em uma página, validar formulários, criar animações e muito mais.
+
+## API do Bitrix24
+
+O Bitrix24 é uma plataforma de gestão de relacionamento com o cliente (CRM) baseada em nuvem. Ele fornece uma API (Interface de Programação de Aplicativos) que permite integrar o Bitrix24 com outras aplicações e sistemas.
+Através da API do Bitrix24, podemos enviar e receber dados, automatizar processos e interagir com as informações armazenadas no CRM, facilitando a integração do sistema com outras partes do projeto.
+
+## ![Axios](https://img.icons8.com/ios-filled/50/000000/axios.png) Axios
+
+Axios é uma biblioteca JavaScript baseada em Promise que permite realizar requisições HTTP a partir do navegador ou de um servidor Node.js. É amplamente utilizada para facilitar a comunicação com APIs externas.
+Neste projeto, utilizamos o Axios para realizar requisições HTTP à API do Bitrix24. Ele nos ajuda a fazer solicitações, passando os parâmetros necessários e obtendo as respostas da API.
+O Axios simplifica o processo de comunicação com a API do Bitrix24, fornecendo métodos convenientes para lidar com as requisições e respostas, além de suportar funcionalidades como autenticação, manipulação de erros e interceptadores de requisição e resposta.
+
+
 ### Sistema Web
 
 O Sistema Web será integrado com o Bitrix24 por meio da API, permitindo a leitura das informações relevantes. Na página web, será apresentado um resumo do dia atual, destacando as seguintes informações:
