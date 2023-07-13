@@ -102,8 +102,49 @@ Aqui estão as instruções para realizar as etapas necessárias nos sistemas en
 ## 💻 Desenvolvimento
 
 O desenvolvimento deste projeto envolve a integração com a API do Bitrix24 para leitura das informações relevantes, bem como a criação de um Sistema Web para apresentar o resumo das horas trabalhadas.
+## Documentação - Solicitações no Script JavaScript
 
-Para obter mais detalhes sobre a implementação, consulte o código-fonte fornecido neste repositório.
+A seguir, você encontrará uma explicação das principais solicitações feitas no script JavaScript para a página HTML .
+
+## Arquivo HTML 
+
+O arquivo HTML fornecido contém uma estrutura básica para uma página web que exibe um relatório de horas de funcionários de diferentes departamentos. A página possui um menu de navegação, um formulário de seleção de departamento e duas tabelas onde os dados serão preenchidos dinamicamente.
+
+## Solicitações no arquivo "script.js"
+
+### 1. Carregar Departamentos
+
+A função `carregarDepartamentos()` é chamada quando o botão "BUSCAR" é clicado. Essa função é responsável por carregar os departamentos disponíveis a partir de uma fonte de dados e preencher o elemento `<select>` no formulário.
+
+```javascript
+function carregarDepartamentos() {
+  // Implementação da lógica para carregar os departamentos
+}
+```
+
+### 2. Preencher Tabela Bitrix24
+
+A função `preencherTabelaBitrix24(dados)` é responsável por preencher a tabela com o ID "tabelaBitrix24" com os dados fornecidos. Os dados são passados para a função como um parâmetro `dados` no formato adequado.
+
+```javascript
+function preencherTabelaBitrix24(dados) {
+  // Implementação da lógica para preencher a tabela "tabelaBitrix24" com os dados fornecidos
+}
+```
+
+### 3. Preencher Outra Tabela
+
+A função `preencherOutraTabela(dados)` é responsável por preencher a tabela com o ID "outraTabela" com os dados fornecidos. Os dados são passados para a função como um parâmetro `dados` no formato adequado.
+
+```javascript
+function preencherOutraTabela(dados) {
+  // Implementação da lógica para preencher a tabela "outraTabela" com os dados fornecidos
+}
+```
+
+## Considerações Finais
+
+As solicitações descritas acima são parte do script JavaScript utilizado na página HTML fornecida. Essas funções são responsáveis por carregar os departamentos disponíveis, preencher as tabelas com os dados adequados e manipular as informações exibidas na página
 
 ## 📜 Licença
 
